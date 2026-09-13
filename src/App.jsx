@@ -235,6 +235,19 @@ function App() {
                                     systems that turn complex, high-dimensional
                                     data into useful insight.
                                 </p>
+                                <div
+                                    className="hero-research reveal reveal-four"
+                                    aria-label="Research focus and interest"
+                                >
+                                    <p>
+                                        <span>Focus</span>
+                                        Data science for neuroinformatics
+                                    </p>
+                                    <p>
+                                        <span>Interest</span>
+                                        Data science for biomedicine
+                                    </p>
+                                </div>
                                 <div className="hero-actions reveal reveal-four">
                                     <a
                                         className="button button-dark"
@@ -305,23 +318,6 @@ function App() {
                     </section>
 
                     <section
-                        className="research-focus"
-                        aria-labelledby="research-focus-title"
-                    >
-                        <p className="kicker">Research</p>
-                        <div className="research-focus-item">
-                            <span>Focus</span>
-                            <h2 id="research-focus-title">
-                                Data science for neuroinformatics
-                            </h2>
-                        </div>
-                        <div className="research-focus-item">
-                            <span>Interest</span>
-                            <p>Data science for biomedicine</p>
-                        </div>
-                    </section>
-
-                    <section
                         className="work-section section-pad"
                         id="work"
                         aria-labelledby="fbk-work-title"
@@ -334,11 +330,7 @@ function App() {
                                     src="/fbk-logo.png"
                                     alt="Fondazione Bruno Kessler"
                                 />
-                                <h2 id="fbk-work-title">
-                                    Research made
-                                    <br />
-                                    useful.
-                                </h2>
+                                <h2 id="fbk-work-title">Research made useful.</h2>
                             </div>
                             <p>
                                 Research and applied projects across
