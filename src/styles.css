@@ -664,6 +664,14 @@ h1 span {
     font-style: normal;
     font-weight: 650;
 }
+
+.tutoring-professor {
+    margin: 14px 0 0;
+    color: #55554f;
+    font-size: 0.82rem;
+    font-weight: 600;
+    line-height: 1.35;
+}
 .secondary-heading {
     display: grid;
     margin-bottom: 44px;

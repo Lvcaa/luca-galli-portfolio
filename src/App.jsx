@@ -116,10 +116,30 @@ const secondaryProjects = [
 ];
 
 const tutoringCourses = [
-    { number: "01", name: "Programming 1", detail: "C++" },
-    { number: "02", name: "Introduction to Machine Learning", detail: "" },
-    { number: "03", name: "Programming 2", detail: "Java" },
-    { number: "04", name: "Software Engineering", detail: "" },
+    {
+        number: "01",
+        name: "Programming 1",
+        detail: "C++",
+        professor: "Roveri",
+    },
+    {
+        number: "02",
+        name: "Introduction to Machine Learning",
+        detail: "",
+        professor: "Staiano",
+    },
+    {
+        number: "03",
+        name: "Programming 2",
+        detail: "Java",
+        professor: "Marchese",
+    },
+    {
+        number: "04",
+        name: "Software Engineering",
+        detail: "",
+        professor: "Giorgini",
+    },
 ];
 
 function App() {
@@ -400,6 +420,9 @@ function App() {
                                         {course.detail && (
                                             <em>{course.detail}</em>
                                         )}
+                                        <p className="tutoring-professor">
+                                            Professor · {course.professor}
+                                        </p>
                                     </div>
                                 </li>
                             ))}
